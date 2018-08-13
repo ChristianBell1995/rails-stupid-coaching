@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Answer Page</h1>
+  <p>Find me in app/views/questions/answer.html.erb</p>
+
+  <div class="user-input">
+    <h4><%= @user_input %></h4>
+    <p><i>- You</i></p>
+  </div>
+  <div class="coach-reply">
+    <h4><%=@answer%></h4>
+    <p><i>- Your Coach</i></p>
+  </div>
+
+  <p class="link"><%= link_to "Ask another question", ask_path %></p>
+</div>
